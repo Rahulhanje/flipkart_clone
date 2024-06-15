@@ -14,9 +14,8 @@ This project is a simple clone of the Flipkart website built using only HTML and
 
 ## Demo
 
-![Flipkart Clone Screenshot](path_to_screenshot.png)
+![Flipkart Clone Screenshot](images\Screenshot 2024-06-15 120331.png)
 
-You can view a live demo of the project [here](#).
 
 ## Features
 
@@ -31,7 +30,7 @@ You can view a live demo of the project [here](#).
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/flipkart-clone.git
+    git clone https://github.com/rahulhanje/flipkart-clone.git
     ```
 2. Navigate to the project directory:
     ```bash
