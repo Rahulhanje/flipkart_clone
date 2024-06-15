@@ -16,7 +16,6 @@ This project is a simple clone of the Flipkart website built using only HTML and
 
 ![Flipkart Clone Screenshot](images\Screenshot 2024-06-15 120331.png)
 
-You can view a live demo of the project [here](#).
 
 ## Features
 
