@@ -5,295 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
-    </title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            font-family: 'Lato', sans-serif;
-        }
-
-        :root {
-            --main-bg-color: #2874f0;
-        }
-
-        nav {
-            background-color: var(--main-bg-color);
-            height: 59px;
-            display: flex;
-            align-items: center;
-        }
-
-        .logo {
-
-            width: 163px;
-            height: 31px;
-            text-align: center;
-            padding-top: 5px;
-            padding-left: 20px;
-        }
-
-
-
-        .top ul {
-            display: flex;
-            padding-left: 24px;
-        }
-
-        .top ul li {
-            list-style: none;
-            color: aliceblue;
-
-        }
-
-        .top ul li a {
-            text-decoration: none;
-            color: aliceblue;
-            padding: 5px 24px;
-            font-family: 'Lato', sans-serif;
-
-
-        }
-
-        .top ul li a:hover {
-            font-weight: bold;
-            color: rgb(9, 9, 9);
-
-        }
-
-        footer {
-            height: 12vh;
-            background-color: var(--main-bg-color);
-            color: white;
-            font-family: 'Lato', sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-        }
-
-        .cont {
-            min-height: calc(100vh - 51px - 12vh);
-        }
-
-        .s {
-            height: 29.6px;
-            width: 435px;
-            padding-left: 15px;
-            border-radius: -1px;
-        }
-
-        .btn {
-
-            height: 31.6px;
-            width: 70px;
-        }
-
-        .login {
-            padding-left: 57px;
-            list-style: none;
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-        }
-
-        .login a {
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-        }
-
-        .login:hover {
-            font-weight: 480;
-            color: rgb(9, 9, 9);
-
-        }
-
-        .deal ul li a {
-            list-style: none;
-            text-decoration: none;
-            color: rgb(49, 49, 48);
-            padding-left: 38px;
-
-
-        }
-
-        .deal ul li {
-            list-style: none;
-        }
-
-        .deal ul li a:hover {
-            color: #2874f0;
-            font-weight: 550;
-
-        }
-
-        .deal ul {
-            padding-top: 23px;
-            padding-left: 57px;
-
-        }
-
-        .back {
-            padding-left: 23px;
-            padding-top: 25px;
-            width: 1327px;
-            height: 452px;
-            overflow: hidden;
-
-
-        }
-
-        .item {
-            display: inline-flex;
-            width: 1312px;
-            height: 297.6px;
-            border-bottom-width: 2px;
-            margin-bottom: 44px;
-            margin-top: 18px;
-            margin-left: -7px;
-            margin-right: -174px;
-            padding-right: 46px;
-            padding-left: 1px;
-            overflow: scroll;
-
-        }
-
-        .card {
-            padding: 36px 20px;
-        }
-
-        .lins {
-            text-align: center;
-        }
-
-        card img:hover {
-            width: 305px;
-        }
-
-        .back {
-            animation-name: rahul;
-            animation-duration: 2s;
-
-
-            animation-timing-function: linear;
-            animation-iteration-count: 1;
-
-        }
-
-        @keyframes rahul {
-            0% {
-                width: 0px;
-            }
-
-            50% {
-                rotate: 720deg;
-            }
-
-            100% {
-                width: 1327px;
-            }
-        }
-
-        .card img:hover {
-            animation-name: ram;
-            animation-duration: 1s;
-            animation-timing-function: ease-out;
-            animation-iteration-count: 1;
-        }
-
-        @keyframes ram {
-            50% {
-                rotate: 1.9deg;
-            }
-
-        }
-
-        .cards h2 {
-            padding: 35px 0px 0px 18px;
-            color: #2874f0;
-
-        }
-
-        .item {
-            /* border: 2px solid red; */
-            /* border-radius: 5px; */
-
-            width: 1313px;
-            height: 297.6px;
-            border-bottom-width: 2px;
-            margin-bottom: 44px;
-            margin-top: 18px;
-            margin-left: 9px;
-            margin-right: -174px;
-            padding-right: 46px;
-            padding-left: 1px;
-            overflow: scroll;
-
-        }
-
-        @media screen and (max-width:1000px) {
-
-            nav {
-                flex-direction: column;
-
-                height: 71px;
-                display: flex;
-                align-items: center;
-            }
-
-            .login {
-                padding-left: 57px;
-                list-style: none;
-                text-decoration: none;
-                color: white;
-                font-size: 20px;
-            }
-
-            .deal ul {
-                padding-top: 53px;
-                padding-left: 32px;
-                flex-direction: column;
-                visibility: hidden;
-            }
-
-            .top {
-                display: flex;
-                padding-left: 2px;
-            }
-
-            .back img {
-                overflow: hidden;
-            }
-        }
-    </style>
-
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!</title>
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 
 <body>
     <header>
         <nav>
-
-            <img src="logo.png" alt="sorry" class="logo">
-
+            <img src="images/logo.png" alt="logo" class="logo">
             <div class="top">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Help</a></li>
-
                 </ul>
             </div>
             <div class="sbox">
-                <input type="loggin" placeholder="Search your what you want" class="s">
+                <input type="text" placeholder="Search what you want" class="s">
                 <button class="btn">Search</button>
             </div>
             <div class="login"><a href="#">Login</a></div>
         </nav>
-
     </header>
     <main>
         <div class="cont">
@@ -305,20 +38,19 @@
                         <a href="#">Mobiles</a>
                         <a href="#">Fashion</a>
                         <a href="#">Electronics</a>
-                        <a href="#">Home applyns</a>
-                        <a href="#">Appliances</a>
+                        <a href="#">Home Appliances</a>
                         <a href="#">Travel</a>
                         <a href="#">Beauty, Toys & More</a>
                         <a href="#">2-Wheelers</a>
                     </li>
                 </ul>
             </div>
-            <img src="icon.jpg" alt="sorry" class="back">
+            <img src="images/icon.jpg" alt="banner" class="back">
             <div class="cards">
                 <h2>New brand phones</h2>
                 <div class="item">
                     <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
+                        <img src="images/edu.jpg" alt="product" width="300px">
                         <div class="lins">
                             <p>VIVO</p>
                             <p>50% Off</p>
@@ -326,7 +58,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
+                        <img src="images/edu.jpg" alt="product" width="300px">
                         <div class="lins">
                             <p>VIVO</p>
                             <p>50% Off</p>
@@ -334,7 +66,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
+                        <img src="images/edu.jpg" alt="product" width="300px">
                         <div class="lins">
                             <p>VIVO</p>
                             <p>50% Off</p>
@@ -342,7 +74,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
+                        <img src="images/edu.jpg" alt="product" width="300px">
                         <div class="lins">
                             <p>VIVO</p>
                             <p>50% Off</p>
@@ -350,7 +82,92 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                </div>
+                <h2>New brand phones</h2>
+                <div class="item">
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
+                        <div class="lins">
+                            <p>VIVO</p>
+                            <p>50% Off</p>
+                            <p>Only few left</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/edu.jpg" alt="product" width="300px">
                         <div class="lins">
                             <p>VIVO</p>
                             <p>50% Off</p>
@@ -359,169 +176,11 @@
                     </div>
                 </div>
             </div>
-            <div class="cards">
-                <h2>New brand phones</h2>
-                <div class="item">
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cards">
-                <h2>New brand phones</h2>
-                <div class="item">
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cards">
-                <h2>New brand phones</h2>
-                <div class="item">
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="edu.jpg" alt="sorry" width="300px">
-                        <div class="lins">
-                            <p>VIVO</p>
-                            <p>50% Off</p>
-                            <p>Only few left</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Repeat this card section as needed -->
         </div>
     </main>
     <footer>
-        <p>copyright @Flipkart.com </p>
+        <p>Copyright @Flipkart.com</p>
     </footer>
 </body>
 
