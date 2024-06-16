@@ -1,4 +1,4 @@
-# flipkart_clone# Flipkart Clone
+#  Flipkart Clone
 
 This project is a simple clone of the Flipkart website built using only HTML and CSS. The purpose of this project is to practice and demonstrate basic web development skills including layout design, responsive design, and styling.
 
