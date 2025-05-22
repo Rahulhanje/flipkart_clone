@@ -10,7 +10,6 @@ This project is a simple clone of the Flipkart website built using only HTML and
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Demo
 
@@ -42,3 +41,5 @@ This project is a simple clone of the Flipkart website built using only HTML and
 To view the project, simply open the `index.html` file in your preferred web browser:
 ```bash
 open index.html
+
+
