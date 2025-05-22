@@ -193,6 +193,61 @@ footer {
     }
 }
 
+/* Contact Page Styles */
+.contact-content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content h1 {
+    color: var(--main-bg-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-content form div {
+    margin-bottom: 15px;
+}
+
+.contact-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-content input[type="text"],
+.contact-content input[type="email"],
+.contact-content textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-content textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Ensure the submit button uses the existing .btn style and is centered or aligned */
+.contact-content form button.btn {
+    display: block; /* Make it a block to allow margin auto for centering */
+    margin: 0 auto; /* Center the button */
+    /* The .btn class already defines height, width, border, background-color, color, border-radius, cursor */
+}
+
+.contact-content p {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 600px) {
     .logo {
         width: 120px;
