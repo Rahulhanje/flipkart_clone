@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <div class="top">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="sbox">
+                <input type="text" placeholder="Search what you want" class="s">
+                <button class="btn">Search</button>
+            </div>
+            <div class="login"><a href="#">Login</a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="cont">
+            <div class="cart-page">
+                <h1>Your Shopping Cart</h1>
+                <div class="cart-items">
+                    <!-- Placeholder Cart Item 1 -->
+                    <div class="cart-item">
+                        <img src="images/edu.jpg" alt="Product Image" class="cart-item-image">
+                        <div class="cart-item-details">
+                            <p class="cart-item-name">Sample Product 1</p>
+                            <p class="cart-item-price">$19.99</p>
+                            <input type="number" value="1" min="1" class="cart-item-quantity">
+                        </div>
+                        <button class="btn cart-item-remove">Remove</button>
+                    </div>
+                    <!-- Placeholder Cart Item 2 -->
+                    <div class="cart-item">
+                        <img src="images/n.jpg" alt="Product Image" class="cart-item-image">
+                        <div class="cart-item-details">
+                            <p class="cart-item-name">Sample Product 2</p>
+                            <p class="cart-item-price">$25.50</p>
+                            <input type="number" value="2" min="1" class="cart-item-quantity">
+                        </div>
+                        <button class="btn cart-item-remove">Remove</button>
+                    </div>
+                </div>
+                <div class="cart-summary">
+                    <h2>Cart Summary</h2>
+                    <p>Total Items: <span id="total-items">3</span></p>
+                    <p>Total Price: <span id="total-price">$65.49</span></p>
+                    <button class="btn checkout-btn">Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright @Flipkart.com</p>
+    </footer>
+</body>
+
+</html>
